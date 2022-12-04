@@ -3,6 +3,8 @@ debugger
 
 A (very) simple debugger built in `C` using `ptrace(2)`.
 
+Inspired by Eli Bendersky's article [How debuggers work](https://eli.thegreenplace.net/2011/01/23/how-debuggers-work-part-1).
+
 Usage
 -----
 
