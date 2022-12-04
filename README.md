@@ -7,10 +7,7 @@ Usage
 -----
 
 * Build with `make`
-
-* Run with: ```sh
-./bin/debugger [-b breakpoints] pathname [arguments]
-```
+* Run with `./bin/debugger [-b breakpoints] pathname [arguments]`
 
 Tests
 -----
