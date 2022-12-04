@@ -12,6 +12,14 @@ Usage
 * `breakpoints` must be a comma-separated list of addresses.  
 * `arguments` are the debugged program's command-line arguments (excluding the 0th argument).
 
+Features
+--------
+
+Dumps all register values at each breakpoint.
+
+Internally, there's also support for reading from or even writing to process memory,  
+but the command-line interface doesn't support any of that yet.
+
 Build
 -----
 
