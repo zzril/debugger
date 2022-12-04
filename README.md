@@ -1,7 +1,7 @@
 debugger
 ========
 
-A (very) simple debugger built in `C` using ptrace.
+A (very) simple debugger built in `C` using `ptrace(2)`.
 
 Usage
 -----
@@ -9,9 +9,9 @@ Usage
 ```sh
 ./bin/debugger [-b breakpoints] pathname [arguments]
 ```
-`breakpoints` must be a comma-separated list of addresses.  
-`arguments` are the debugged program's command-line arguments (excluding the 0th  
-argument).
+* `breakpoints` must be a comma-separated list of addresses.  
+* `arguments` are the debugged program's command-line arguments (excluding the  
+  0th argument).
 
 Build
 -----
@@ -23,8 +23,8 @@ Examples/Tests
 
 `resources/helloworld` contains a (very basic) helloworld program hand-written  
 in assembler.  
-`./run.sh` builds and runs the debugger on that program, with some breakpoints  
-set.  
-`./test.sh` does the same, but tests a few more edge cases.
+* `./run.sh` builds and runs the debugger on that program, with some breakpoints  
+set
+* `./test.sh` does the same, but tests a few more edge cases
 
 
